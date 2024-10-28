@@ -1,0 +1,112 @@
+.main-title {
+    color: rgb(255, 0, 242);
+    text-align: center;
+}
+
+body {
+    background: rgb(4, 237, 245);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-nav {
+    max-width: 1200px;
+    width: 100%;
+    background-color: rgb(72, 255, 0);
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+    margin: 0;
+    padding: 0;
+
+}
+
+iframe {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.main    {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 30px ;
+    border-radius: 10px;
+    background-color: rgb(255, 251, 0);
+    padding: 30px;
+}
+
+
+
+
+.main-img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gallery-item {
+    width: 33%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+
+.gallery-img{
+    width: 100%;
+    transition: 5s;
+}
+
+.gallery-img:hover{
+    transform: rotate(3600deg);
+}
+
+.cacaric, .volnistik, .nerozlucnik{
+    transition: 3s;
+}
+.cacaric:hover {
+    filter: blur(10px);
+}
+
+.volnistik:hover{
+transform: translateY(100px) ;
+}
+
+.nerozlucnik:hover{
+filter: grayscale(1.5);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
